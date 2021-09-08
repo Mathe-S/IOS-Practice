@@ -1,3 +1,13 @@
-import UIKit
+import Foundation
+import PlaygroundSupport
 
-var greeting = "Hello, playground"
+PlaygroundPage.current.needsIndefiniteExecution = true
+
+func timmer () {
+    
+    let timer = Timer.scheduledTimer(withTimeInterval: 1, repeats: true) { _ in
+      print("hi")
+    }
+
+}
+
